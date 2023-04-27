@@ -16,14 +16,19 @@ body {
     background-color: var(--Pale-blue);
     font-family:"Red Hat Display", sans-serif;
     font-size: 16px;
+
+    display:flex;
+    flex-direction:column;
+    align-item: center;
+    Justify-content: center;
+    min-height:100hv;
 }
 .card {
-    width: 450px;
+    max-width: 400px;
     background-color: white;
     color: var(--Desaturated-blue);
     border-radius: 20px;
     overflow: hidden;
-    margin: 50px auto;
 }
 
 .title {
